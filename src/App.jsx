@@ -23,6 +23,17 @@ function App() {
         <div className="text-2xl m-5 rounded-lg hover:font-semibold hover:scale-125 transition-transform text-white cursor-pointer bg-teal-900 px-4 py-1">2</div>
         <div className="text-2xl m-5 rounded-lg hover:font-semibold hover:scale-125 transition-transform text-white cursor-pointer bg-teal-900 px-4 py-1">3</div>
         </div>
+        <div className="flex flex-1 mx-auto w-max">
+        <div className="text-2xl m-5 rounded-lg hover:font-semibold hover:scale-125 transition-transform text-white cursor-pointer bg-teal-900 px-4 py-1">AC</div>   
+          <div className="text-2xl m-5 rounded-lg hover:font-semibold hover:scale-125 transition-transform text-white cursor-pointer bg-teal-900 px-4 py-1">0</div>
+          <div className="text-2xl m-5 rounded-lg hover:font-semibold hover:scale-125 transition-transform text-white cursor-pointer bg-teal-900 px-4 py-1">=</div>
+        </div>
+        <div className="flex flex-1 mx-auto w-max">
+          <div className="text-2xl m-5 rounded-lg hover:font-semibold hover:scale-125 transition-transform text-white cursor-pointer bg-teal-900 px-4 py-1">+</div>
+          <div className="text-2xl m-5 rounded-lg hover:font-semibold hover:scale-125 transition-transform text-white cursor-pointer bg-teal-900 px-4 py-1">-</div>
+          <div className="text-2xl m-5 rounded-lg hover:font-semibold hover:scale-125 transition-transform text-white cursor-pointer bg-teal-900 px-4 py-1">*</div>
+          <div className="text-2xl m-5 rounded-lg hover:font-semibold hover:scale-125 transition-transform text-white cursor-pointer bg-teal-900 px-4 py-1">/</div>
+        </div>
     </div>
   )
 }
